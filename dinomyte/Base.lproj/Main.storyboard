@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="dinomyte" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trees" translatesAutoresizingMaskIntoConstraints="NO" id="7qN-4Z-kry">
+                                <rect key="frame" x="-2" y="0.0" width="1028" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volcano3" translatesAutoresizingMaskIntoConstraints="NO" id="xZj-Aj-zOP">
+                                <rect key="frame" x="-260" y="277" width="1544" height="423"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greens" translatesAutoresizingMaskIntoConstraints="NO" id="sVk-Uc-xI3" userLabel="green">
+                                <rect key="frame" x="0.0" y="0.0" width="1028" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bes-sD-rrK" userLabel="dino1">
+                                <rect key="frame" x="727" y="533" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="N3s-gd-iIg"/>
+                                </constraints>
+                                <state key="normal" image="dino1">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dino1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V6a-3s-amz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q4-X7-GKh" userLabel="dino2">
+                                <rect key="frame" x="795" y="306" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="6ng-kG-kJ0"/>
+                                </constraints>
+                                <state key="normal" image="dino2-1"/>
+                                <connections>
+                                    <action selector="dino2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="anI-dn-XRY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gt-Bz-kXs" userLabel="dino3">
+                                <rect key="frame" x="144" y="521" width="203" height="195"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="203" id="5Zt-st-Xnj"/>
+                                    <constraint firstAttribute="height" constant="195" id="ZL9-Ej-ges"/>
+                                </constraints>
+                                <state key="normal" image="dino3-1">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dino3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PGN-3y-LDX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M6-RU-vRJ" userLabel="dino4">
+                                <rect key="frame" x="31" y="306" width="200" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="hJY-y5-wgd"/>
+                                </constraints>
+                                <state key="normal" image="dino4-1">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dino4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zwc-KP-eg0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCT-1J-VX1" userLabel="dino5">
+                                <rect key="frame" x="450" y="560" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8Yh-yw-NX4"/>
+                                    <constraint firstAttribute="height" constant="200" id="dlZ-FE-Tkr"/>
+                                </constraints>
+                                <state key="normal" image="dino5-1">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dino5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tak-H2-0hJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SB1-8e-g73" userLabel="dino7">
+                                <rect key="frame" x="777" y="69" width="200" height="200"/>
+                                <state key="normal" image="dino7-1">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dino7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yqo-4X-ENv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwb-fb-TTi" userLabel="dino8">
+                                <rect key="frame" x="296" y="15" width="200" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="EDQ-RB-jZ8"/>
+                                </constraints>
+                                <state key="normal" image="dino8-1">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dino8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B8C-fN-hti"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlb-4J-TLg" userLabel="dino9">
+                                <rect key="frame" x="542" y="0.0" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="HJQ-yz-awR"/>
+                                    <constraint firstAttribute="height" constant="200" id="V3X-Ky-Gwu"/>
+                                </constraints>
+                                <state key="normal" image="dino9"/>
+                                <connections>
+                                    <action selector="dino8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Chb-mr-W6C"/>
+                                    <action selector="dino9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9IM-vY-1ns"/>
+                                </connections>
+                            </button>
+                            <sceneKitView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" sceneName="lavaflow" preferredRenderingAPI="1" translatesAutoresizingMaskIntoConstraints="NO" id="VZI-fS-LVF">
+                                <rect key="frame" x="415" y="267" width="240" height="266"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="DmW-tr-22S"/>
+                                </constraints>
+                            </sceneKitView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmO-y2-YR5">
+                                <rect key="frame" x="386" y="194" width="282" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282" id="FCs-dT-UBd"/>
+                                    <constraint firstAttribute="height" constant="83" id="FuI-CU-DlX"/>
+                                </constraints>
+                                <state key="normal" title="DINOMYTE!!!" image="title_282_83"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="0.32300701990000003" blue="0.2917505064" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dinomyteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w39-hv-Dge"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6K-VH-WCN" userLabel="dino6">
+                                <rect key="frame" x="67" y="81" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="vgt-Qu-xTt"/>
+                                </constraints>
+                                <state key="normal" image="dino6-1">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dino6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LOB-tk-Sbl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VZI-fS-LVF" firstAttribute="leading" secondItem="2Gt-Bz-kXs" secondAttribute="trailing" constant="68" id="0uW-U4-sNW"/>
+                            <constraint firstItem="kwb-fb-TTi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="15" id="17A-XC-ttF"/>
+                            <constraint firstItem="7Q4-X7-GKh" firstAttribute="top" secondItem="4M6-RU-vRJ" secondAttribute="top" id="243-3u-LWb"/>
+                            <constraint firstItem="SB1-8e-g73" firstAttribute="leading" secondItem="jlb-4J-TLg" secondAttribute="trailing" constant="35" id="3fJ-Aa-PBB"/>
+                            <constraint firstItem="HmO-y2-YR5" firstAttribute="top" secondItem="kwb-fb-TTi" secondAttribute="bottom" constant="1" id="8Wm-Wk-1HJ"/>
+                            <constraint firstItem="xZj-Aj-zOP" firstAttribute="top" secondItem="SB1-8e-g73" secondAttribute="bottom" constant="8" symbolic="YES" id="Aie-et-74W"/>
+                            <constraint firstItem="UCT-1J-VX1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="450" id="B3Q-ub-t9j"/>
+                            <constraint firstItem="Bes-sD-rrK" firstAttribute="leading" secondItem="UCT-1J-VX1" secondAttribute="trailing" constant="77" id="BQG-b2-uVb"/>
+                            <constraint firstItem="jlb-4J-TLg" firstAttribute="leading" secondItem="kwb-fb-TTi" secondAttribute="trailing" constant="46" id="DKm-Ws-wNA"/>
+                            <constraint firstItem="Z6K-VH-WCN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="47" id="ETh-6L-8Rc"/>
+                            <constraint firstItem="kwb-fb-TTi" firstAttribute="leading" secondItem="Z6K-VH-WCN" secondAttribute="trailing" constant="29" id="K0b-QZ-lcf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xZj-Aj-zOP" secondAttribute="bottom" constant="68" id="Mk7-MP-fIY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bes-sD-rrK" secondAttribute="trailing" constant="77" id="P3e-LD-stg"/>
+                            <constraint firstItem="VZI-fS-LVF" firstAttribute="top" secondItem="jlb-4J-TLg" secondAttribute="bottom" constant="67" id="TuK-eo-PBj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SB1-8e-g73" secondAttribute="trailing" constant="27" id="V2r-m8-u20"/>
+                            <constraint firstItem="xZj-Aj-zOP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZG1-PX-Azp"/>
+                            <constraint firstItem="sVk-Uc-xI3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aYz-Gf-3mx"/>
+                            <constraint firstItem="sVk-Uc-xI3" firstAttribute="top" secondItem="jlb-4J-TLg" secondAttribute="top" id="awg-ca-fKJ"/>
+                            <constraint firstItem="sVk-Uc-xI3" firstAttribute="top" secondItem="7qN-4Z-kry" secondAttribute="top" id="ayE-1Z-QFS"/>
+                            <constraint firstItem="2Gt-Bz-kXs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="144" id="dHY-tH-r0j"/>
+                            <constraint firstItem="7qN-4Z-kry" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dIu-ny-GY2"/>
+                            <constraint firstItem="4M6-RU-vRJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="fGg-oA-z4K"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UCT-1J-VX1" secondAttribute="bottom" constant="8" symbolic="YES" id="fXD-Ec-y0l"/>
+                            <constraint firstItem="2Gt-Bz-kXs" firstAttribute="top" secondItem="4M6-RU-vRJ" secondAttribute="bottom" constant="38" id="hwV-e9-HAY"/>
+                            <constraint firstItem="Bes-sD-rrK" firstAttribute="top" secondItem="7Q4-X7-GKh" secondAttribute="bottom" constant="27" id="i6e-p9-nei"/>
+                            <constraint firstAttribute="trailing" secondItem="jlb-4J-TLg" secondAttribute="trailing" constant="282" id="iJu-Q4-Ohq"/>
+                            <constraint firstItem="UCT-1J-VX1" firstAttribute="top" secondItem="VZI-fS-LVF" secondAttribute="bottom" constant="27" id="n6g-xw-wEj"/>
+                            <constraint firstItem="SB1-8e-g73" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49" id="qzD-6U-e1F"/>
+                            <constraint firstItem="7qN-4Z-kry" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uCw-tj-VTI"/>
+                            <constraint firstItem="4M6-RU-vRJ" firstAttribute="top" secondItem="Z6K-VH-WCN" secondAttribute="bottom" constant="25" id="uZr-Ng-2t6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7Q4-X7-GKh" secondAttribute="trailing" constant="9" id="wOG-Fz-2vl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bes-sD-rrK" secondAttribute="bottom" constant="35" id="wpL-Oi-LPy"/>
+                            <constraint firstItem="HmO-y2-YR5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="386" id="x02-iY-xic"/>
+                            <constraint firstItem="Z6K-VH-WCN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="61" id="xTU-wd-feA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundVIew" destination="sVk-Uc-xI3" id="Yko-38-jm4"/>
+                        <outlet property="sceneKitView" destination="VZI-fS-LVF" id="nTk-Cy-373"/>
+                        <outlet property="trees" destination="7qN-4Z-kry" id="8fv-a0-iWE"/>
+                        <outlet property="volcano" destination="xZj-Aj-zOP" id="bhu-KS-SmZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.67187499999999" y="158.59375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dino1" width="194" height="177"/>
+        <image name="dino2-1" width="194" height="177"/>
+        <image name="dino3-1" width="194" height="177"/>
+        <image name="dino4-1" width="194" height="177"/>
+        <image name="dino5-1" width="194" height="177"/>
+        <image name="dino6-1" width="194" height="177"/>
+        <image name="dino7-1" width="194" height="177"/>
+        <image name="dino8-1" width="194" height="178"/>
+        <image name="dino9" width="194" height="177"/>
+        <image name="greens" width="1028" height="768"/>
+        <image name="title_282_83" width="285" height="86"/>
+        <image name="trees" width="1028" height="768"/>
+        <image name="volcano3" width="1544" height="423"/>
+    </resources>
+</document>

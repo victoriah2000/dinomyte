@@ -1,2 +1,1 @@
-# dinomyte
-dinomyte app from hackathon
+# Dinomyte
